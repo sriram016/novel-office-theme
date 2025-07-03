@@ -1,0 +1,661 @@
+[2025-07-03 10:25:03] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-07-03 10:25:03] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-07-03 10:25:03] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-07-03 10:25:04] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-07-03 10:25:04] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-07-03 10:25:04] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-07-03 10:25:04] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303\
+[2025-07-03 10:25:04] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/customtheme/
+[2025-07-03 10:25:04] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-07-03 10:25:04] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-03 10:25:04] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-03 10:25:04] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-07-03 10:25:04] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/
+[2025-07-03 10:25:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-07-03 10:25:04] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a80b9b73-SEuR1M.tmp
+[2025-07-03 10:25:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/?simply_static_page=47
+[2025-07-03 10:25:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/?simply_static_page=47
+[2025-07-03 10:25:05] [class-ss-url-fetcher.php:103] Filesize: 93646 bytes
+[2025-07-03 10:25:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-07-03 10:25:05] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-07-03 10:25:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a80b9b73-SEuR1M.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/index.html
+[2025-07-03 10:25:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:159] Adding 46 URLs to the queue
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:06] [class-ss-page.php:119] Checking Content Identical:a05f2e604e89918c6a65fa9b19806070496e2aee===. Value: FALSE
+[2025-07-03 10:25:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-07-03 10:25:06] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-07-03 10:25:06] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-03 10:25:06] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:69] Total pages: 46; Pages remaining: 45
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319551-3-1.jpg
+[2025-07-03 10:25:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 46
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8265e94-b69Klc.tmp
+[2025-07-03 10:25:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319551-3-1.jpg?simply_static_page=48
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319551-3-1.jpg?simply_static_page=48
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:103] Filesize: 15322568 bytes
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Frame-427319551-3-1.jpg
+[2025-07-03 10:25:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8265e94-b69Klc.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Frame-427319551-3-1.jpg
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:c39b16bf7b6325e4a39b5dbb4d3251ba78c3c5a9===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/novel-office-logo.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a830802c-JZI1Yn.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/novel-office-logo.png?simply_static_page=49
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/novel-office-logo.png?simply_static_page=49
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 26090 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/novel-office-logo.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a830802c-JZI1Yn.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/novel-office-logo.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:eaa3287a958bee5c8b3ec56a878e872246cbfbab===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319296@2x-1-min.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83105a5-59Q8tG.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319296@2x-1-min.png?simply_static_page=50
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Frame-427319296@2x-1-min.png?simply_static_page=50
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 2096394 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Frame-427319296@2x-1-min.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83105a5-59Q8tG.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Frame-427319296@2x-1-min.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:4d7028e5cf502810212eabbe3b5ccac2ac615c87===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-256.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8331b06-K1HB2I.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-256.png?simply_static_page=51
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-256.png?simply_static_page=51
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 13956 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-256.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8331b06-K1HB2I.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-256.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:757049e5ae32e5689be6ea266be7e846cd01421a===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-257.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8339577-x78maB.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-257.png?simply_static_page=52
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-257.png?simply_static_page=52
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 12035 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-257.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8339577-x78maB.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-257.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:8b33bc49acf6c3e345aa2a86750d0fb92dc41d54===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-258.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8342421-GFGAUb.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-258.png?simply_static_page=53
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-258.png?simply_static_page=53
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 11149 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-258.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8342421-GFGAUb.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-258.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:6c5f88ce7a6421ba5dd8a6b8f4e7c8d230cdc698===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-259.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a834c78c-eZ2hlo.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-259.png?simply_static_page=54
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-259.png?simply_static_page=54
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 3508 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-259.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a834c78c-eZ2hlo.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-259.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:1c1e79f3a47edc80be38242b917791fe6e900948===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-260.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8354505-huYemP.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-260.png?simply_static_page=55
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-260.png?simply_static_page=55
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 8991 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-260.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8354505-huYemP.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-260.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:d22b39667277d6bc901c0beccaaa43d590f16d40===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-261-1.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a835cf19-mPj2sM.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-261-1.png?simply_static_page=56
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-261-1.png?simply_static_page=56
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 6894 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-261-1.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a835cf19-mPj2sM.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-261-1.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:fde2b7ab565e4e87c8d43205c45df4c13fa97cbb===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-262-1.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83639a4-Wpyt4r.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-262-1.png?simply_static_page=57
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-262-1.png?simply_static_page=57
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 5087 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-262-1.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83639a4-Wpyt4r.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-262-1.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:9bd02a2d00301027ae2e04491f3df28ad648d4fc===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-263.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a836bc44-oondMf.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-263.png?simply_static_page=58
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-263.png?simply_static_page=58
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 4965 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-263.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a836bc44-oondMf.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-263.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:4156986608d623ee1cdb299e486d5e482f4ee229===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-264.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8371d05-MiJoVN.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-264.png?simply_static_page=59
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-264.png?simply_static_page=59
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 7650 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-264.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8371d05-MiJoVN.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-264.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:3384cfd4dc00f8e9f0aaa4cfb81f6a5fccef729d===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-266.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a837bd99-zdDaYO.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-266.png?simply_static_page=60
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-266.png?simply_static_page=60
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 9320 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-266.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a837bd99-zdDaYO.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-266.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:1f7c522da763b3419d41ada9353e2dd24610424d===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-265.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8387af1-lSe5Kg.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Group-265.png?simply_static_page=61
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Group-265.png?simply_static_page=61
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 12403 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Group-265.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8387af1-lSe5Kg.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Group-265.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:35277eeef1ac2b2209d603b88e62a9d6e82a698e===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/Pepe-Jeans-Logo-1.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8390cb9-iIeNPS.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/Pepe-Jeans-Logo-1.png?simply_static_page=62
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/Pepe-Jeans-Logo-1.png?simply_static_page=62
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 3232 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/Pepe-Jeans-Logo-1.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8390cb9-iIeNPS.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/Pepe-Jeans-Logo-1.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:8103427e9461a94c4fd499ed53033991f70a61ef===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img1.jpg
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8398307-6tzKA7.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img1.jpg?simply_static_page=63
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img1.jpg?simply_static_page=63
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 377637 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/gallery-img1.jpg
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8398307-6tzKA7.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/gallery-img1.jpg
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:6f756f618117989cf3784f270de1a3f2782f8049===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img2.jpg
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83a2819-iUG5NG.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img2.jpg?simply_static_page=64
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img2.jpg?simply_static_page=64
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 79501 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/gallery-img2.jpg
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83a2819-iUG5NG.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/gallery-img2.jpg
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:d9a9dadd8deed8d7f2c3d532c54f020760079c4f===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img3.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83abe56-ODYtXB.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img3.png?simply_static_page=65
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/gallery-img3.png?simply_static_page=65
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 1963019 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/gallery-img3.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83abe56-ODYtXB.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/gallery-img3.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:8777a56477c3f325c530492c30f8f9e64a2c6ab1===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/galery-img4.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83ca272-bw7Aap.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/galery-img4.png?simply_static_page=66
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/galery-img4.png?simply_static_page=66
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 2068883 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/galery-img4.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83ca272-bw7Aap.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/galery-img4.png
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:07] [class-ss-page.php:119] Checking Content Identical:82b9af1aaee84ea213207dd89a19137e9801bd95===. Value: FALSE
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/2025/07/galley-img5.png
+[2025-07-03 10:25:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 46
+[2025-07-03 10:25:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a83e69b4-Y20DOd.tmp
+[2025-07-03 10:25:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/2025/07/galley-img5.png?simply_static_page=67
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/2025/07/galley-img5.png?simply_static_page=67
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:103] Filesize: 1290808 bytes
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/galley-img5.png
+[2025-07-03 10:25:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a83e69b4-Y20DOd.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/2025/07/galley-img5.png
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:739fea65ab6661db6b7a1af2556b2b7c83b75aea===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8407ea6-n8gYTe.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=68
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=68
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 3358 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8407ea6-n8gYTe.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:ccc3e4d82490e24c5bab603beb04961ba3225571===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-includes/blocks/navigation/style.min.css
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8412cf6-zwUMm4.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-includes/blocks/navigation/style.min.css?simply_static_page=69
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-includes/blocks/navigation/style.min.css?simply_static_page=69
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 16449 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8412cf6-zwUMm4.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-includes/blocks/navigation/style.min.css
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:8562935219e2b4299d36f0304c0382ee16390a9e===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-includes/blocks/cover/style.min.css
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8430d1d-hfsxAU.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-includes/blocks/cover/style.min.css?simply_static_page=70
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-includes/blocks/cover/style.min.css?simply_static_page=70
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 19126 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8430d1d-hfsxAU.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-includes/blocks/cover/style.min.css
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:4dcca32b8b9143635264dccf437b80e1acf6525e===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/index.php
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/customtheme/index.php
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/xmlrpc.php
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/customtheme/xmlrpc.php
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a847f97f-OTs6Ec.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=73
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=73
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 38256 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a847f97f-OTs6Ec.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:3b35f410e88cf8d8014baa7612653e6a1768ae2b===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a849a7bd-YFkh6c.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=74
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=74
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a849a7bd-YFkh6c.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84ad147-FHzP6v.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=75
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=75
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84ad147-FHzP6v.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84b81f9-I9TBQB.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=76
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=76
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84b81f9-I9TBQB.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84c15a9-rqD7zF.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=77
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=77
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84c15a9-rqD7zF.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84cad4c-vBxdT3.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2?simply_static_page=78
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2?simply_static_page=78
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 61476 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84cad4c-vBxdT3.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:689e17229ce1e33f974312c2dfdcc7010c3c97aa===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84d565a-XskdyJ.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7Y3tcoqK5.woff2?simply_static_page=79
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7Y3tcoqK5.woff2?simply_static_page=79
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 61104 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84d565a-XskdyJ.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:024aa7dd3eea912ad8f9818bde2e6b5b33b4cfa8===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84df6c3-ZHZDxQ.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7Y3tcoqK5.woff2?simply_static_page=80
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7Y3tcoqK5.woff2?simply_static_page=80
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 61884 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84df6c3-ZHZDxQ.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:5adfdf2127138491e63d933a285d6cee5f621a1a===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84ea693-v6V7PY.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2?simply_static_page=81
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2?simply_static_page=81
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:103] Filesize: 61708 bytes
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84ea693-v6V7PY.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:08] [class-ss-page.php:119] Checking Content Identical:ba16216c1b8a737c765b7d9fe15951d8186c8d17===. Value: FALSE
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 46
+[2025-07-03 10:25:08] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a84f30c5-yApKkC.tmp
+[2025-07-03 10:25:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7Y3tcoqK5.woff2?simply_static_page=82
+[2025-07-03 10:25:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7Y3tcoqK5.woff2?simply_static_page=82
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 62304 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a84f30c5-yApKkC.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:06a78f3b081a73c90d287a2cfc0b5a823ff88130===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8507c0f-4lUtar.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2?simply_static_page=83
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2?simply_static_page=83
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 62596 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8507c0f-4lUtar.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:3fa1f3c5330ac783e1287d6629adbf8147f9c36d===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a852aa0c-TBHFqS.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7Y3tcoqK5.woff2?simply_static_page=84
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7Y3tcoqK5.woff2?simply_static_page=84
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 59168 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a852aa0c-TBHFqS.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7Y3tcoqK5.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:0437539e3820d9054f04605c84dfdf981d00ca63===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a85342ce-aimUYe.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilnsV8kA_Ykqw.woff2?simply_static_page=85
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilnsV8kA_Ykqw.woff2?simply_static_page=85
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 35992 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a85342ce-aimUYe.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:03e642332ff3504f97ee3210478bdf839d4384b2===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GiClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a853d4ca-ZV4zYB.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GiClnsV8kA_Ykqw.woff2?simply_static_page=86
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GiClnsV8kA_Ykqw.woff2?simply_static_page=86
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 37568 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GiClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a853d4ca-ZV4zYB.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GiClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:bd0ffd5e0166695acbee09be7b677901b615501a===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a85465cd-gileD5.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilnsV8kA_Ykqw.woff2?simply_static_page=87
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilnsV8kA_Ykqw.woff2?simply_static_page=87
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 37816 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a85465cd-gileD5.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:192cc66a9c3e5930dd4aeddb6d3cfb8307ca6f45===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G5ClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a854f5ad-kcyYnS.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G5ClnsV8kA_Ykqw.woff2?simply_static_page=88
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G5ClnsV8kA_Ykqw.woff2?simply_static_page=88
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 37896 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G5ClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a854f5ad-kcyYnS.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G5ClnsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:5a17c153c622f9636f5e21980c3af51ea99f263c===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a855903c-onmAZ7.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5nsV8kA_Ykqw.woff2?simply_static_page=89
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5nsV8kA_Ykqw.woff2?simply_static_page=89
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 37412 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a855903c-onmAZ7.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:944b3fddb6e0d3e6930a2d89074d7f408901be86===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GCC5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a85621fe-LDyDBg.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GCC5nsV8kA_Ykqw.woff2?simply_static_page=90
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GCC5nsV8kA_Ykqw.woff2?simply_static_page=90
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 38096 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GCC5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a85621fe-LDyDBg.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GCC5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:8216bfb31bbade47727e9affcbaf3d886631b75f===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVi5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a856a46a-nVnDMw.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVi5nsV8kA_Ykqw.woff2?simply_static_page=91
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVi5nsV8kA_Ykqw.woff2?simply_static_page=91
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 37956 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVi5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a856a46a-nVnDMw.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVi5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:6a9aa920edbaee3769241390a5aeed632fd4e171===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:73] URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4Gfy5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 46
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/68665a8573d57-OK2Yz5.tmp
+[2025-07-03 10:25:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4Gfy5nsV8kA_Ykqw.woff2?simply_static_page=92
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/customtheme/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4Gfy5nsV8kA_Ykqw.woff2?simply_static_page=92
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:103] Filesize: 38292 bytes
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4Gfy5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/68665a8573d57-OK2Yz5.tmp to C:\xampp\htdocs\customtheme/wp-content/uploads\simply-static\temp-files/simply-static-1-1751538303/wp-content/uploads/fonts/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4Gfy5nsV8kA_Ykqw.woff2
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-03 10:25:09] [class-ss-page.php:119] Checking Content Identical:eabb10ceb3d493ceed21c278ec2d3f5c55936aa1===. Value: FALSE
+[2025-07-03 10:25:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 46 pages/files
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-03 10:25:09] [class-ss-fetch-urls-task.php:69] Total pages: 46; Pages remaining: 0
+[2025-07-03 10:25:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 46 of 46 pages/files
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-07-03 10:25:09] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-07-03 10:25:09] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-07-03 10:25:09] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-07-03 10:25:10] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="http://localhost/customtheme/wp-content/uploads/simply-static/temp-files/simply-static-1-1751538303.zip">Click here to download</a>
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-07-03 10:25:10] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-07-03 10:25:10] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-07-03 10:25:10] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:00:07
